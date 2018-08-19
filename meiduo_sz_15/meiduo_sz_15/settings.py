@@ -49,8 +49,8 @@ INSTALLED_APPS = [
     'goods.apps.GoodsConfig',
     'oauth.apps.OauthConfig',
     'orders.apps.OrdersConfig',
-    'pay.apps.PaysConfig',
-    'users.apps.UserssConfig',
+    'pay.apps.PayConfig',
+    'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
     'rest_framework',
 ]
@@ -206,3 +206,17 @@ LOGGING = {
         },
     }
 }
+
+
+# 异常处理
+REST_FRAMEWORK = {
+    'EXCEPTION_HANDLER': 'utils.exceptions.exception_handler',
+}
+
+
+# 我们自定义的模型不能被Django的认证系统所识别,需要告诉django
+#认证系统,使用我们自定义的模型类
+
+# 参数的设置以点.来分隔，表示应用名.模型类名
+
+AUTH_USER_MODEL = 'users.User'
