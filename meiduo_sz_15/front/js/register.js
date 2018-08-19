@@ -9,6 +9,7 @@ var vm = new Vue({
 		error_image_code: false,
 		error_sms_code: false,
 		error_phone_message:'您输入的手机号格式不正确',
+		error_name_message: '请输入5-20个字符的用户',
 
 		username: '',
 		password: '',
@@ -61,13 +62,30 @@ var vm = new Vue({
 			}		
 		},
 		check_phone: function (){
-			var re = /^1[345789]\d{9}$/;
-			if(re.test(this.mobile)) {
-				this.error_phone = false;
-			} else {
-				this.error_phone = true;
-			}
-		},
+            var re = /^1[345789]\d{9}$/;
+            if(re.test(this.mobile)) {
+                this.error_phone = false;
+            } else {
+                this.error_phone_message = '您输入的手机号格式不正确';
+                this.error_phone = true;
+            }
+            if (this.error_phone == false) {
+                axios.get('http://127.0.0.1:8000'+'/users/phones/'+ this.mobile + '/count/', {
+                        responseType: 'json'
+                    })
+                    .then(response => {
+                        if (response.data.count > 0) {
+                            this.error_phone_message = '手机号已存在';
+                            this.error_phone = true;
+                        } else {
+                            this.error_phone = false;
+                        }
+                    })
+                    .catch(error => {
+                        console.log(error.response.data);
+                    })
+            }
+        },
 		check_image_code: function (){
 			if(!this.image_code) {
 				this.error_image_code = true;
