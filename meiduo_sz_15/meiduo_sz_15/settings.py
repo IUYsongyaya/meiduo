@@ -11,10 +11,16 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# 因为我们将应用放到了apps文件件，所以要告知django去apps里查找，
+# 我们需要向Python解释器的导包路径中添加apps应用目录的路径.
+#让django找到 apps这个包!!!  BASE + 'APPS' 告诉解释器去哪里找
+sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
+print(sys.path)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -37,6 +43,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'areas.apps.AreasConfig',
+    'carts.apps.CartsConfig',
+    'contents.apps.ContentsConfig',
+    'goods.apps.GoodsConfig',
+    'oauth.apps.OauthConfig',
+    'orders.apps.OrdersConfig',
+    'pay.apps.PaysConfig',
+    'users.apps.UserssConfig',
+    'verifications.apps.VerificationsConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -72,6 +88,7 @@ WSGI_APPLICATION = 'meiduo_sz_15.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
+#
 
 DATABASES = {
     'default': {
