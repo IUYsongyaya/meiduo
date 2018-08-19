@@ -21,6 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #让django找到 apps这个包!!!  BASE + 'APPS' 告诉解释器去哪里找
 sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
 print(sys.path)
+print('这是base路径 %s' % BASE_DIR)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -43,15 +44,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'areas.apps.AreasConfig',
-    'carts.apps.CartsConfig',
-    'contents.apps.ContentsConfig',
-    'goods.apps.GoodsConfig',
-    'oauth.apps.OauthConfig',
-    'orders.apps.OrdersConfig',
-    'pay.apps.PayConfig',
+    # 'areas.apps.AreasConfig',
+    # 'carts.apps.CartsConfig',
+    # 'contents.apps.ContentsConfig',
+    # 'goods.apps.GoodsConfig',
+    # 'oauth.apps.OauthConfig',
+    # 'orders.apps.OrdersConfig',
+    # 'pay.apps.PayConfig',
     'users.apps.UsersConfig',
-    'verifications.apps.VerificationsConfig',
+    # 'verifications.apps.VerificationsConfig',
     'rest_framework',
 ]
 
