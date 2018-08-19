@@ -17,7 +17,7 @@ class RegisterUsernameCountAPIView(APIView):
     """
     def get(self, request, username):
         #通过模型查询,获取用户个数
-        count = User.query.filter(username=username).count()
+        count = User.objects.filter(username=username).count()
         #组织数据
         context = {
             'count' : count,
