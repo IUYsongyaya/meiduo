@@ -194,9 +194,9 @@ class Captcha(object):
             path: save path, default None.
             fmt: image format, PNG / JPEG.
         Returns:
-            A tuple, (name, text, StringIO.value).
+            A tuple, (text, StringIO.value).
             For example:
-                ('fXZJN4AFxHGoU5mIlcsdOypa', 'JGW9', '\x89PNG\r\n\x1a\n\x00\x00\x00\r...')
+                ('JGW9', '\x89PNG\r\n\x1a\n\x00\x00\x00\r...')
 
         """
         image = Image.new('RGB', (self.width, self.height), (255, 255, 255))
@@ -205,13 +205,10 @@ class Captcha(object):
         image = self.curve(image)
         image = self.noise(image)
         image = self.smooth(image)
-        name = "".join(random.sample(string.ascii_lowercase + string.ascii_uppercase + '3456789', 24))
         text = "".join(self._text)
         out = BytesIO()
         image.save(out, format=fmt)
-        if path:
-            image.save(os.path.join(path, name), fmt)
-        return name, text, out.getvalue()
+        return text, out.getvalue()
 
     def generate_captcha(self):
         self.initialize()

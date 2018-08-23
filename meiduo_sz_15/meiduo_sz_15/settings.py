@@ -20,8 +20,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 我们需要向Python解释器的导包路径中添加apps应用目录的路径.
 #让django找到 apps这个包!!!  BASE + 'APPS' 告诉解释器去哪里找
 sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
-print(sys.path)
-print('这是base路径 %s' % BASE_DIR)
+# print(sys.path)
+# print('这是base路径 %s' % BASE_DIR)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -31,9 +31,41 @@ SECRET_KEY = '5%@0ujsp+rwoubma#4dr+@v1!j493xjh83d2zf7&(52ulijfa='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+AUTH_USER_MODEL = 'users.User'
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+#允许哪些主机访问
+#设置allowed_hosts
+#允许哪些主机访问
+ALLOWED_HOSTS = ['127.0.0.1','api.meiduo.site']
+#添加白名单
+# CORS
+CORS_ORIGIN_WHITELIST = (
+    '127.0.0.1:8080',
+    'localhost:8080',
+    'www.meiduo.site:8080'
+)
+CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 
+# 配置
+REST_FRAMEWORK = {
+# 异常处理
+    'EXCEPTION_HANDLER': 'utils.exceptions.exception_handler',
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
+}
+
+import datetime
+# JWT_EXPIRATION_DELTA 指明token的有效期
+# 我们自定义的模型不能被Django的认证系统所识别,需要告诉django
+#认证系统,使用我们自定义的模型类
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'utils.users.jwt_response_payload_handler',
+}
 
 # Application definition
 
@@ -54,9 +86,12 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     # 'verifications.apps.VerificationsConfig',
     'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    #这里一定要放在最前面
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -216,15 +251,12 @@ LOGGING = {
 }
 
 
-# 异常处理
-REST_FRAMEWORK = {
-    'EXCEPTION_HANDLER': 'utils.exceptions.exception_handler',
-}
 
 
-# 我们自定义的模型不能被Django的认证系统所识别,需要告诉django
-#认证系统,使用我们自定义的模型类
+
+
+
 
 # 参数的设置以点.来分隔，表示应用名.模型类名
 
-AUTH_USER_MODEL = 'users.User'
+
