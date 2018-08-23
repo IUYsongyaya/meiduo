@@ -80,12 +80,14 @@ INSTALLED_APPS = [
     # 'carts.apps.CartsConfig',
     # 'contents.apps.ContentsConfig',
     # 'goods.apps.GoodsConfig',
-    # 'oauth.apps.OauthConfig',
+    'oauth.apps.OauthConfig',
     # 'orders.apps.OrdersConfig',
     # 'pay.apps.PayConfig',
     'users.apps.UsersConfig',
     # 'verifications.apps.VerificationsConfig',
+    #安装框架
     'rest_framework',
+    # 安装cors 白名单
     'corsheaders',
 ]
 
@@ -250,13 +252,18 @@ LOGGING = {
     }
 }
 
-
-
-
-
-
-
+#告诉django 这是我
+AUTHENTICATION_BACKENDS = [
+   # 'utils.users.UsernameMobileAuthBackend',
+   'utils.users.UserMobileUserName',
+]
 
 # 参数的设置以点.来分隔，表示应用名.模型类名
+# QQ登录参数
 
+QQ_APP_ID = '101474184'
+
+QQ_APP_KEY = 'c6ce949e04e12ecc909ae6a8b09b637c'
+
+QQ_REDIRECT_URL = 'http://www.meiduo.site:8080/oauth_callback.html'
 

@@ -67,11 +67,13 @@ class RegisterUsername(APIView):
     3.校验没问题就入库
     """
     def post(self, request):
+        #只要用到序列化器,返回的user就会携带token信息,因为token字段已经定义了在了序列化操作里面
         serializer = RegisterUserSerializer(data=request.data)
 
         #进行校验
-        serializer.is_valid()
+        serializer.is_valid(ValueError=True)
         print(serializer.is_valid())
+
         #保存数据(会调用create方法)
         serializer.save()
 
