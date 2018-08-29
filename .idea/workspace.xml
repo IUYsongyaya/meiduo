@@ -2,8 +2,185 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbeab3ab-ced6-4309-bc47-70775cbbd6b1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/.idea/美多商城前端资源.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/cart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/find_password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/goods_judge.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/QQ-weixin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/adv01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/adv02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/banner01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/banner02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/banner03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/bar_code.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/cat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/clock.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/clock.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/find-password.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/goods/goods001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/goods/goods002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/goods/goods003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/goods/goods004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/goods/goods005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/goods/goods006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/goods/goods007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/goods/goods008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/goods/goods009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/goods_450.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/icons02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/interval_line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/left_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/login_banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/logo02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/pay_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/pic_code.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/register_banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/shine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/shop_cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/slide01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/slide02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/slide03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/slide04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/stars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/images/time_count_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/axios-0.18.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/goods_judge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/host.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/jquery-1.12.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/oauth_callback.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/slide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/user_center_info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/user_center_site.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/js/vue-2.5.16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/oauth_callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/order_success.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/place_order.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/success_verify_email.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/user_center_info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/user_center_order.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/user_center_pass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/front/user_center_site.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/areas/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/areas/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/areas/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/areas/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/areas/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/areas/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/areas/serializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/areas/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/areas/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/areas/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/carts/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/carts/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/carts/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/carts/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/carts/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/carts/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/carts/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/contents/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/contents/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/contents/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/contents/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/contents/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/contents/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/contents/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/goods/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/goods/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/goods/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/goods/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/goods/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/goods/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/goods/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/oauth/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/oauth/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/oauth/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/oauth/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/oauth/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/oauth/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/oauth/serializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/oauth/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/oauth/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/oauth/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/orders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/orders/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/orders/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/orders/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/orders/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/orders/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/orders/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/pay/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/pay/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/pay/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/pay/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/pay/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/pay/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/pay/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/migrations/0002_user_email_active.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/migrations/0003_auto_20180828_1725.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/serializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/users/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/verifications/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/verifications/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/verifications/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/verifications/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/verifications/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/verifications/serializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/verifications/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/verifications/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/apps/verifications/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/celery_tasks/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/celery_tasks/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/celery_tasks/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/celery_tasks/send_email/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/celery_tasks/send_email/tasks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/celery_tasks/sms/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/celery_tasks/sms/tasks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/libs/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/libs/captcha/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/libs/captcha/captcha.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/libs/captcha/fonts/Arial.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/libs/captcha/fonts/Georgia.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/libs/captcha/fonts/actionj.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/libs/yuntongxun/CCPRestSDK.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/libs/yuntongxun/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/libs/yuntongxun/sms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/libs/yuntongxun/xmltojson.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/mall/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/mall/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/mall/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/mall/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/utils/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/utils/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mall/utils/users.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mall/mall/settings.py" afterPath="$PROJECT_DIR$/mall/mall/settings.py" />
     </list>
     <list id="65fce4e8-81e4-4873-8823-3012f411837a" name="hwxcool" comment="hwxcool" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +204,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8424">
+            <state relative-caret-position="0">
               <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
               <folding />
             </state>
@@ -57,7 +234,7 @@
       <file leaf-file-name="generics.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/generics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="1836">
               <caret line="110" column="23" lean-forward="false" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="23" />
               <folding />
             </state>
@@ -67,28 +244,18 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="2898">
               <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mixins.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mixins.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mall/mall/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="259" column="20" lean-forward="true" selection-start-line="259" selection-start-column="20" selection-end-line="259" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -233,24 +400,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="meiduo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meiduo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meiduo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mall" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -676,24 +825,24 @@
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16441621" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16918188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762837" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3312789" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3312789" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27383864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.118644066" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36517718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33251834" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27383864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33251834" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -890,7 +1039,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/meiduo_sz_15/celery_tasks/main.py" />
     <entry file="file://$PROJECT_DIR$/meiduo_sz_15/celery_tasks/sms/tasks.py" />
     <entry file="file://$PROJECT_DIR$/meiduo_sz_15/manage.py" />
     <entry file="file://$PROJECT_DIR$/meiduo_sz_15/logs/meiduo.log" />
@@ -937,17 +1085,9 @@
     <entry file="file://$PROJECT_DIR$/meiduo_sz_15/apps/oauth/utils.py" />
     <entry file="file://$PROJECT_DIR$/meiduo_sz_15/apps/oauth/views.py" />
     <entry file="file://$PROJECT_DIR$/meiduo_sz_15/apps/oauth/urls.py" />
-    <entry file="file://$USER_HOME$/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="2898">
           <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
           <folding />
         </state>
@@ -955,7 +1095,7 @@
     </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/generics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="1836">
           <caret line="110" column="23" lean-forward="false" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="23" />
           <folding />
         </state>
@@ -963,8 +1103,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mall/mall/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="259" column="20" lean-forward="true" selection-start-line="259" selection-start-column="20" selection-end-line="259" selection-end-column="20" />
+        <state relative-caret-position="4716">
+          <caret line="265" column="10" lean-forward="true" selection-start-line="265" selection-start-column="10" selection-end-line="265" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
